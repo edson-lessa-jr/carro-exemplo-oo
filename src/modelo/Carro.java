@@ -18,7 +18,7 @@ public class Carro {
     }
 
     public String getModelo() {
-        return modelo;
+        return modelo.toUpperCase();
     }
 
     public void setModelo(String modelo) {
